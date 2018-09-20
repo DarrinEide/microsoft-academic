@@ -1,0 +1,51 @@
+- name: Microsoft Academic Knowledge Exploration Service (MAKES)
+  href: index.yml
+- name: Overview
+  expanded: true
+  items:
+  - name: Microsoft Academic (MA)
+    href: overview/microsoft-academic.md
+  - name: Knowledge Exploration Service (KES)
+    href: overview/knowledge-exporation-service.md
+  - name: Microsoft Academic + Knowledge Exploration Service (MAKES)
+    href: overview/makes.md
+    items:
+    - name: Semantic Interpretation Engine
+      href: overview/makes-semantic.md
+    - name: Entity Engine
+      href: overview/makes-entity.md
+- name: How-to guides
+  expanded: true
+  items:
+  - name: Receive MAKES engine builds w/distribution preview
+    href: how-to/setup-distribution-preview.md
+  - name: Deploy MAKES engine
+    items:
+    - name: Using Azure Management Portal
+      href: how-to/deploy-makes-amp.md
+    - name: Using Powershell
+      href: how-to/deploy-makes-powershell.md
+    - name: Using Azure CLI
+      href: how-to/deploy-makes-cli.md
+  - name: Troubleshoot MAKES deployment
+    href: how-to/troubleshoot-makes.md
+- name: Reference
+  items:
+  - name: Azure CLI
+    href: /cli/azure/vm
+  - name: Azure PowerShell
+    href: /powershell/azureps-cmdlets-docs
+  - name: KES REST API Reference
+    href: /azure/cognitive-services/KES/webapi
+- name: Resources
+  items:
+  - name: Pricing
+    href: resources/pricing.md
+  - name: Regional availability
+    href: resources/regional-availability.md
+  - name: Stack Overflow
+    href: http://stackoverflow.com/questions/tagged/ma-kes
+  - name: Videos
+    href: resources/videos.md
+  - name: FAQ
+    href: resources/faq.md

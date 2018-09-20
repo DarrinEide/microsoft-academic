@@ -1,0 +1,61 @@
+### YamlMime:YamlDocument
+documentType: LandingData
+title: Microsoft Academic Knowledge Exporation Service (MAKES) Documentation
+metadata:
+  document_id: 1d98d530-28c7-635f-d41b-8da3ae02971c
+  title: Microsoft Academic Knowledge Exporation Service (MAKES) Documentation - Overview, Api reference, How-to guides, Tutorials
+  meta.description: Learn everything you need to know about Microsoft Academic Knowledge Exporation Service (MAKES), including technology overviews, API references, how-to guides, tutorials and more.
+  services: ma-kes
+  author: darrine
+  manager: kuansanw
+  ms.service: ma-kes
+  ms.tgt_pltfrm: na
+  ms.devlang: na
+  ms.topic: landing-page
+  ms.date: 09/20/2018
+  ms.author: darrine
+abstract:
+  description: Microsoft Academic Knowledge Exploration Service offers a fast and effective way to add interactive academic search and refinement to applications. Learn all about MAKES, including how to sign up, deploy, manage and use MAKES engines.
+sections:
+- title: Technology Overview
+  items: 
+  - type: paragraph
+    text: 'Learn about the different technologies that MAKES is composed of:'
+  - type: list
+    style: unordered
+    items:
+    - html: <a href="overview/microsoft-academic">Microsoft Academic (MA)</a>
+    - html: <a href="overview/knowledge-exploration-service">Knowledge Exploration Service (KES)</a>
+    - html: <a href="overview/makes">Microsoft Academic + Knowledge Exploration Service (MAKES)</a>
+- title: How-To Guides
+  items:
+  - type: paragraph
+    text: Learn how to deploy, manage, and use MAKES.
+  - type: list
+    style: ordered
+    items:
+    - html: <a href="/azure/virtual-machines/windows/tutorial-manage-vm">Create and manage Windows VMs</a>
+    - html: <a href="/azure/virtual-machines/windows/tutorial-manage-data-disk">Create and manage VM disks</a>
+    - html: <a href="/azure/virtual-machines/windows/tutorial-automate-vm-deployment">Automate VM configuration</a>
+    - html: <a href="/azure/virtual-machines/windows/tutorial-custom-images">Create custom VM images</a>
+    - html: <a href="/azure/virtual-machines/windows/tutorial-availability-sets">Create highly available VMs</a>
+    - html: <a href="/azure/virtual-machines/windows/tutorial-create-vmss">Create a VM scale set</a>
+    - html: <a href="/azure/virtual-machines/windows/tutorial-load-balancer">Load balance VMs</a>
+    - html: <a href="/azure/virtual-machines/windows/tutorial-virtual-network">Manage VMs with virtual networks</a>
+    - html: <a href="/azure/virtual-machines/windows/tutorial-backup-vms">Backup VMs</a>
+    - html: <a href="/azure/virtual-machines/windows/tutorial-govern-resources">Govern VMs</a>
+    - html: <a href="/azure/virtual-machines/windows/tutorial-monitoring">Monitor VMs</a>
+    - html: <a href="/azure/virtual-machines/windows/tutorial-azure-security">Manage security on VMs</a>
+    - html: <a href="/azure/virtual-machines/windows/tutorial-vsts-iis-cicd">Create a continuous integration pipeline with Visual Studio</a>
+    - html: <a href="/azure/virtual-machines/windows/tutorial-iis-sql">Install a SQL/IIS/.NET stack</a>
+    - html: <a href="/azure/virtual-machines/windows/tutorial-secure-web-server">Secure a web server with SSL</a>
+- title: Reference
+  items:
+  - type: list
+    style: cards
+    className: cardsD
+    items:
+    - title: Command-Line
+      html: <p><a href="/powershell/azureps-cmdlets-docs">Azure PowerShell</a></p><p><a href="/cli/azure/vm">Azure CLI</a></p>
+    - title: REST
+      html: <p><a href="/azure/cognitive-services/KES/webapi">KES REST API Reference</a></p>
